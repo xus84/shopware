@@ -4,15 +4,13 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xus84/shopware.git"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,8 +19,12 @@
   },
   "homepage": "https://github.com/xus84/shopware#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
